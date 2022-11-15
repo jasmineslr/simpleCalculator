@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/bootstrap.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+        <title>Calcute</title>
+    </head>
+    <!--test-->
+    <body>
+        <div class="container" id="con1">
+            <div class="message" id="message">Please enter your math idea</div>
+            <div class="main">
+                <form name="forms" id="forms">
+                <input type="text" name="inputs" id="inputs">
+                <div class="container-fluid">
+                <div class="row justify-content-evenly">
+                    <input type="button" class="col-2 btn1 clear" value="C" name="clear" id="clear">
+                    <input type="button" class="col-2 btn1" value="/" name="divide" id="divide" onclick="document.forms.inputs.value+='/' ">
+                    <input type="button" class="col-2 btn1" value="*" name="multi" id="multi" onclick="document.forms.inputs.value+='*'">
+                    <input type="button" class="col-2 btn1" value="-" name="less" id="less" onclick="document.forms.inputs.value+='-'">
+                </div>
+                <div class="row justify-content-evenly">
+                    <input type="button" class="col-2 btn1" value="1" name="one" id="one" >
+                    <input type="button" class="col-2 btn1" value="2" name="two" id="two" >
+                    <input type="button" class="col-2 btn1" value="3" name="three" id="three" >
+                    <input type="button" class="col-2 btn1" value="+" name="plus" id="plus"  onclick="document.forms.inputs.value+='+'">
+                </div>
+                <div class="row justify-content-evenly">
+                    <input type="button" class="col-2 btn1" value="4" name="four" id="four" >
+                    <input type="button" class="col-2 btn1" value="5" name="five" id="five" >
+                    <input type="button" class="col-2 btn1" value="6" name="six" id="six" >
+                    <input type="button" class="col-2 btn1" value="." name="dot" id="dot" >
+                </div>
+                <div class="row justify-content-evenly">
+                    <input type="button" class="col-2 btn1" value="7" name="one" id="seven">
+                    <input type="button" class="col-2 btn1" value="8" name="two" id="eight">
+                    <input type="button" class="col-2 btn1" value="9" name="three" id="nine">
+                    <input type="button" class="col-2 btn1" value="0" name="zero" id="zero">
+                </div>
+                <div class="row justify-content-evenly">
+                    <input type="button" class="col-12 btn1 equal" value="=" name="equal" id="equal">
+                </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="bootstrap-5.0.0-beta3-dist/jquery-3.6.0.min.js"></script>
+        <script src="bootstrap-5.0.0-beta3-dist/js/bootstrap.js"></script>
+    </body>
+</html>
